@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# porfolio
-=======
 # portfolio
 
 ## Project setup

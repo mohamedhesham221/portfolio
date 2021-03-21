@@ -1,0 +1,23 @@
+.about {
+        .bottom-section {
+            width: 100%;
+            min-height: 400px;
+            background-color: #d5d5d5f2;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            .work_head {
+                font: 1.1rem $oswald;
+                color: $navColor
+            }
+            .work_list, .exhib_list {
+                list-style-position: inside;
+                .work_list_item, .exhib_list_item {
+                color: $navColor;
+                font-family: $manrope;
+                }
+            }
+        }    
+    .footer_about {
+        min-height: 0;
+    }
+}

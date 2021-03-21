@@ -1,0 +1,32 @@
+.form {
+    width: 100%;
+    .form_heading {
+        color: $headColor;
+        font: 2rem $oswald;
+        width: fit-content;
+        margin: 0 auto 20px;
+    }
+    p {
+        color: $navColor;
+        font: 1rem $manrope;
+        word-break: break-word;
+    }
+    .call, .email {
+        font: .8rem $oswald;
+        letter-spacing: 1px;
+    }
+    label[for=fullname],
+    label[for=email],
+    label[for=message] {
+        color: $navColor;
+    }
+    .form_social {
+        width: 100%;
+        margin: 50px 0 70px;
+        #instagram, #linkedin {
+            margin: 0 30px;
+            color: $navColor;
+            font-size: 1.5rem;
+        }
+    }
+}

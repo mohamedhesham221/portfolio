@@ -1,0 +1,31 @@
+//color variables
+$hoverNavColor: #d0aa73;
+$navColor: #9b9a9a;
+$navBackgroundColor: #fafafa;
+$mainTxtColor: #676767;
+$headColor: #6C6B6B;
+$footerSocialColor: #f2f2f2;
+$footerSocialBackgroundColor: #111111;
+$footerBackgroundTxtColor: #D5D5D5;
+
+//fonts Variables
+@import 
+url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Miss+Fajardose&family=Manrope&family=Montserrat&display=swap');
+
+$roboto: 'Roboto', sans-serif;
+$oswald: 'Oswald', sans-serif;
+$manrope: 'Manrope', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+
+//methods home
+@mixin backgroundBtns {
+    width: fit-content;
+    display: block;
+    padding: 10px;
+    font-size: .8rem;
+    color: $navColor;
+    font-family: $roboto;
+    background-color: $footerSocialColor;
+    margin: 40px 0 30px;
+}
+//methods about

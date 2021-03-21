@@ -1,0 +1,27 @@
+@media only screen and (min-width: 768px) {
+    #nav-toggle {
+        display: none !important;
+    }
+    #nav_XL_screen {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        a {
+            margin: 0 20px;
+            font: bold 1.5rem $oswald;
+            color: $navColor;
+            text-decoration: none;
+            &:hover {
+                color: $hoverNavColor
+            }
+            .router-link-exact-active, .router-link-active {
+                color: $hoverNavColor;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    #nav_XL_screen {
+        display: none;
+    }
+}

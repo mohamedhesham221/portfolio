@@ -1,0 +1,24 @@
+//reset style 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import './styles/style';
+
+//home styles
+@import './home/navbar';
+@import './home/introParagraph';
+@import './home/featuredPainting';
+@import './home/homeFooter';
+@import './home/navbarXLscreen';
+
+//about styles
+@import './about/topSection';
+@import './about/bottomSection';
+@import './about/aboutXLscreen';
+//gallery styles
+@import './gallery/gallery_XL_screen';
+
+//contact styles
+@import './contact/form_contact';

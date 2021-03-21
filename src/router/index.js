@@ -1,15 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import NotFound from '@/components/NotFound.vue';
 import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: '*',
-    component: NotFound,
-  },
   {
     path: '/',
     name: 'Home',
@@ -29,6 +24,10 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue'),
+  },
+  {
+    path: '*',
+    redirect: '/',
   },
 ];
 

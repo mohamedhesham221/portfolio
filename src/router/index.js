@@ -7,6 +7,10 @@ Vue.use(VueRouter);
 
 const routes = [
   {
+    path: '*',
+    component: NotFound,
+  },
+  {
     path: '/',
     name: 'Home',
     component: Home,
@@ -26,11 +30,6 @@ const routes = [
     name: 'Contact',
     component: () => import('../views/Contact.vue'),
   },
-  {
-    path: '*',
-    component: NotFound,
-  },
-
 ];
 
 const router = new VueRouter({

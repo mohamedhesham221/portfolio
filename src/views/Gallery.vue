@@ -141,6 +141,7 @@ export default {
   gap: 15px;
   .image {
   width: 100%;
+  height: auto;
   cursor: pointer;
 }
 }

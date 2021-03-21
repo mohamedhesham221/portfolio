@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import NotFound from '@/components/NotFound.vue';
 import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
@@ -27,7 +28,7 @@ const routes = [
   },
   {
     path: '*',
-    component: () => import('@/components/NotFound.vue'),
+    component: NotFound,
   },
 
 ];

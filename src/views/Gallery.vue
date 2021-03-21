@@ -139,6 +139,7 @@ export default {
 <style lang="scss" scoped>
 .images-wrapper {
   gap: 15px;
+  align-items: center;
   .image {
   width: 100%;
   height: auto;

@@ -25,6 +25,7 @@
     z-index: 99999;
     padding-top: 70px;
     background-color: $navBackgroundColor;
+    overflow: auto;
     #x-toggle {
         @include position()
     }

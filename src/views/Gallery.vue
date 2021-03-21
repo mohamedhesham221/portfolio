@@ -138,12 +138,12 @@ export default {
 </script>
 <style lang="scss" scoped>
 .images-wrapper {
-  gap: 15px;
   align-items: center;
   .image {
   width: 100%;
   height: auto;
   cursor: pointer;
+  margin: 15px 0;
 }
 }
 .footer_gallery {
